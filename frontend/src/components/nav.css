@@ -1,0 +1,35 @@
+ul {
+    list-style-type: none;
+    margin-top: -8px;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+    padding-right: 20px;
+}
+
+li a {
+    display: flex;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.logo {
+    height: 6em;
+}
+
+@media only screen and (max-width: 700px) {
+    li {
+        padding-right: 4px;
+    }
+
+    .logo {
+        height: 55px;
+        margin-left: -10px;
+    }
+}
+
