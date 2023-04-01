@@ -3,37 +3,7 @@ const router = express.Router();
 require('../db/conn')
 const User = require('../model/userSchema')
 const bcrypt = require('bcryptjs')
-
-
-
-// using Promise
-
-// router.post('/reges', (req, res) => {
-
-//     // destructuring from the data enter by user
-//     const { name, email, number, password, cpassword } = req.body;
-
-//     // check the empty field
-//     if (!name, !email, !number, !password, !cpassword) {
-//         return req.status(422).json({ error: 'fill the field' })
-//     }
-
-//     // check email is already exist?
-//     User.findOne({ email: email })
-//         .then((userExist) => {
-//             if (userExist) {
-//                 return res.status(422).json({ error: 'Email Already Exist' })
-//             }
-
-//             // add data to the database
-//             const user = new User({ name, email, number, password, cpassword });
-//             user.save().then(() => {
-//                 res.status(200).json({ message: 'user Reg Successfully' })
-//             }).catch(err => console.log(err))
-
-//         })
-// });
-
+ 
 
 
 // using Async/Await
