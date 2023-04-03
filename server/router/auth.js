@@ -7,7 +7,6 @@ const bcrypt = require('bcryptjs')
 
 
 // using Async/Await
-
 router.post('/reges', async (req, res) => {
 
     // destructuring from the data enter by user
