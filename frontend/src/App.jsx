@@ -9,7 +9,6 @@ import About from './components/About';
 function App() {
 
   return (
-
     <>
       <BrowserRouter>
         <NavBar />
@@ -21,7 +20,6 @@ function App() {
         </Routes>
       </BrowserRouter>
     </>
-
   )
 }
 
