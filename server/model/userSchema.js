@@ -22,12 +22,10 @@ const userSchema = new mongoose.Schema({
         type: 'string',
         required: true
     }
-
 });
 
 
 // encryption method (middleware)
-
 userSchema.pre('save', async function (next) {
 
     if (this.isModified('password')) {
