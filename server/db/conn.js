@@ -6,5 +6,5 @@ const options = {
     
 };
 mongoose.connect('/Enter database url/', options)
-    .then(() => console.log("connection successful"))
+    .then(() => console.log("Connection Successful"))
     .catch(err => console.log(err));
