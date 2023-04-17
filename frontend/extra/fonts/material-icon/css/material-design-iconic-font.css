@@ -361,9 +361,11 @@
 .zmdi-collection-image-o:before {
   content: '\f13f';
 }
+
 .zmdi-collection-image:before {
   content: '\f140';
 }
+
 .zmdi-collection-item-1:before {
   content: '\f141';
 }
