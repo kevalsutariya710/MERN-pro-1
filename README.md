@@ -2,7 +2,7 @@
 
 # Getting Started 
 
-### `npm i`
+### `npm in`
 
 This command install all the dependency to your System
 
