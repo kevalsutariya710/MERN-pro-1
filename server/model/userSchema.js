@@ -24,7 +24,6 @@ const userSchema = new mongoose.Schema({
     }
 });
 
-
 // encryption method (middleware)
 userSchema.pre('save', async function (next) {
 
