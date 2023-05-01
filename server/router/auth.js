@@ -3,7 +3,6 @@ const router = express.Router();
 require('../db/conn')
 const User = require('../model/userSchema')
 const bcrypt = require('bcryptjs')
- 
 
 // using Async/Await
 router.post('/reges', async (req, res) => {
