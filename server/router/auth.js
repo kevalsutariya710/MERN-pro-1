@@ -45,7 +45,7 @@ router.post('/reges', async (req, res) => {
     }
 });
 
-
+// Login API
 router.post('/login', async (req, res) => {
     // try catch is used to handle err in async 
 
